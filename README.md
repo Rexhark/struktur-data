@@ -16,7 +16,7 @@ Queue adalah struktur data abstrak (ADT) yang memungkinkan operasi berikut:
 * *IsFull*: Memeriksa apakah antrian sudah penuh.
 * *Peek*: Mendapatkan nilai bagian depan antrian tanpa menghapusnya.
 * *Initialize*: Membuat antrian baru tanpa elemen data (kosong).
-Namun, secara umum antrian memiliki 2 operasi utama, yaitu enqueue dan dequeue.
+Namun, secara umum antrian memiliki 2 operasi utama, yaitu *enqueue* dan *dequeue*.
 
 ### Fungsi dan Kegunaan Queue
 Berikut ini adalah beberapa fungsi queue yang paling umum dalam struktur data:
@@ -31,9 +31,9 @@ Berikut ini adalah beberapa fungsi queue yang paling umum dalam struktur data:
 ### Definisi
 Stack adalah daftar terurut di mana pengambilan dan penambahan item terjadi hanya pada satu ujung.
 
-Ketika prinsip FIFO (First In First Out) digunakan dalam Queue, prinsip LIFO (Last In Fist Out) digunakan dalam Stack, di mana elemen terakhir ditambahkan atau data adalah elemen pertama yang diambil dari Stack itu juga.
+Ketika prinsip **FIFO (First In First Out)** digunakan dalam Queue, prinsip **LIFO (Last In Fist Out)** digunakan dalam Stack, di mana elemen terakhir ditambahkan atau data adalah elemen pertama yang diambil dari Stack itu juga.
 
-Untuk mudahnya, misalkan kita sedang menumpuk sebuah buku, buku terakhir dalam tumpukan (stack) akan menjadi buku pertama yang diambil karena berada di bagian atas tumpukan, sehingga objek akan terdorong dari bagian atas tumpukan.
+Untuk mudahnya, misalkan kita sedang menumpuk sebuah buku, buku terakhir dalam tumpukan (*stack*) akan menjadi buku pertama yang diambil karena berada di bagian atas tumpukan, sehingga objek akan terdorong dari bagian atas tumpukan.
 
 ### Fungsi dalam Stack
 * Fungsi *init* : fungsi ini digunakan untuk menginisialisasi atau membuat stack baru yang belum terisi atau masih kosong.
